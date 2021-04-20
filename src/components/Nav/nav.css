@@ -1,0 +1,49 @@
+nav {
+  transform: translateY(80px);
+  margin-top: -80px;
+}
+
+.nav_items {
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__links {
+  margin-left: auto;
+}
+
+.nav__item--left {
+  margin-right: auto;
+}
+
+.nav_item--logo {
+  height: 40px;
+}
+
+.nav__item--link {
+  font-family: Muli, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.3 ease 0s;
+  text-decoration: none;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.nav__item--link:hover {
+  color: #f06666;
+}
+
+.active {
+  color: #f06666;
+}
+
+#Capa_1 {
+  fill: #27ae60;
+}
