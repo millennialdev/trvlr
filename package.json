@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "This is the package JSON file for my travel blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Spenser Wellen",
   "dependencies": {
     "browser-monads": "^1.0.0",
     "gatsby": "^3.2.1",

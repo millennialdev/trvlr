@@ -9,6 +9,7 @@
   display: block;
   text-decoration: none;
   transition: all 0.3s ease 0s;
+  margin-bottom: 5rem;
 }
 
 .viewmore:hover {

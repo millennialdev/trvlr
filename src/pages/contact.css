@@ -1,0 +1,112 @@
+.contact__header {
+    background-image: url('../images/general-header-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: -1;
+}
+
+.contact__header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+        to bottom, 
+        rgba(10,10,10,0.6) 0%,
+        rgba(10,10,10,0.6) 60%,
+        rgba(10,10,10,1) 100%);
+}
+
+.contact__section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px auto 100px;
+}
+
+.contact__form {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    grid-row-start: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+    margin: 60px 0;
+}
+
+.contact__form h1 {
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 50px;
+}
+
+.field__hidden {
+    display: none;
+}
+
+.field input, .field textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    transition: all 0.3s ease 0s;
+    font-family: Muli,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.field input {
+    height: 40px;
+}
+
+.field label {
+    font-family: Muli,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.field input:focus, .field textarea:focus {
+    border-bottom: 1px solid #F06666;
+}
+
+.submit {
+    text-align: center;
+    padding: 0;
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .contact__form {
+        grid-column-start: 1;
+        grid-column-end: span 6;
+        grid-row-start: 2;
+    }
+}
+
+.contact__thanks {
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
