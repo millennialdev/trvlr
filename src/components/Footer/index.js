@@ -15,9 +15,7 @@ const Footer = () => {
             rgba(10,10,10,1) 100%),
             url(${footer})`,
       }}
-    >
-      }}
-    </div>
+    ></div>
   )
 }
 
