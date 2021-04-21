@@ -5,10 +5,10 @@ import "./featured.css"
 const Featured = () => (
   <StaticQuery
     query={graphql`
-      query FeaturedQuery {
+      {
         allContentfulBlog(
           limit: 1
-          sort: { fields: [createdAt], order: DESC }
+          sort: { fields: createdAt, order: DESC }
           filter: { node_locale: { eq: "en-US" }, featured: { eq: true } }
         ) {
           edges {
