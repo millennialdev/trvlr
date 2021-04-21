@@ -3,7 +3,7 @@ nav {
   margin-top: -80px;
 }
 
-.nav_items {
+.nav__items {
   background-color: transparent;
   border: none;
   height: 40px;
@@ -13,15 +13,11 @@ nav {
   align-items: center;
 }
 
-.nav__links {
-  margin-left: auto;
-}
-
 .nav__item--left {
   margin-right: auto;
 }
 
-.nav_item--logo {
+.nav__item--logo {
   height: 40px;
 }
 
@@ -30,10 +26,9 @@ nav {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  transition: all 0.3 ease 0s;
+  transition: all 0.3s ease 0s;
   text-decoration: none;
   margin-left: 40px;
-  cursor: pointer;
 }
 
 .nav__item--link:hover {
@@ -42,8 +37,4 @@ nav {
 
 .active {
   color: #f06666;
-}
-
-#Capa_1 {
-  fill: #27ae60;
 }
