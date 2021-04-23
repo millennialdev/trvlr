@@ -10,9 +10,6 @@ import "./index.css"
 import Footer from "../components/Footer"
 
 const IndexPage = ({ data }) => {
-  if (true) {
-  }
-
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
