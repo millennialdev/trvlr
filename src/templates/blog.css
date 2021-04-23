@@ -28,7 +28,7 @@
 
 .blog__wrapper {
   width: 100vw;
-  background-color: #fff;
+  background-color: hsl(0deg, 0%, 93%);
   left: 50%;
   right: 50%;
   position: absolute;
@@ -94,4 +94,36 @@
     display: block;
     margin: 60px auto;
   }
+}
+
+/* Adding some additional styling to the links */
+p a,
+ol li a,
+ul li a {
+  color: #0a0a0a;
+  text-decoration: none;
+  padding-bottom: 0.025rem;
+  border-bottom: 2.2px dashed darksalmon;
+
+  background-image: linear-gradient(
+    to right,
+    transparent 50%,
+    hsl(137deg, 74%, 75%) 50%
+  );
+  background-origin: 0;
+  background-size: 200% 35%;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  transition: background-position 0.6s;
+}
+
+ol li,
+ul li {
+  margin-bottom: 0.15rem;
+}
+
+a:active,
+a:hover {
+  transition: 0.49s;
+  background-position: -100% 100%;
 }
