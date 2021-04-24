@@ -99,7 +99,8 @@
 /* Adding some additional styling to the links */
 p a,
 ol li a,
-ul li a {
+ul li a,
+h3 a {
   color: #0a0a0a;
   text-decoration: none;
   padding-bottom: 0.025rem;
