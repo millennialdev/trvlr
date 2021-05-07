@@ -24,7 +24,7 @@ const NotFoundPage = () => (
                 404: Not Found
               </h1>
               <p className="header__subtitle">
-                Looks like the page you tried nagivating to doesn't exist!
+                Looks like the page you tried navigating to doesn't exist!
               </p>
             </div>
             <a href="/">
