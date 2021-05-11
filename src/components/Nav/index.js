@@ -12,8 +12,7 @@ const Nav = () => (
       </a>
       <Link
         className={
-          window.location.href.indexOf("blog") > -1 ||
-          window.location.href.indexOf("category") > -1
+          window.location.href.indexOf("blog") > 0
             ? "nav__item--link active"
             : "nav__item--link"
         }
