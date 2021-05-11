@@ -10,24 +10,10 @@ const Nav = () => (
       <a className="nav__item--left" href="/">
         <img src={logo} alt="Traveler Pack Logo" className="nav__item--logo" />
       </a>
-      <Link
-        className={
-          window.location.href.indexOf("blog") > 0
-            ? "nav__item--link active"
-            : "nav__item--link"
-        }
-        to="/blog"
-      >
+      <Link className="nav__item--link" to="/blog">
         Blog
       </Link>
-      <Link
-        className={
-          window.location.href.indexOf("contact") > 0
-            ? "nav__item--link active"
-            : "nav__item--link"
-        }
-        to="/contact"
-      >
+      <Link className="nav__item--link" to="/contact">
         Contact
       </Link>
     </div>
