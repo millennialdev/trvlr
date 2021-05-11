@@ -2,8 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import Nav from "../components/Nav"
 import SEO from "../components/seo"
-
 import "./contact.css"
+
+document.querySelector("#blog-btn")?.classList?.remove("active")
 
 const Contact = () => (
   <Layout>

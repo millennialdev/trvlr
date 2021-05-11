@@ -12,13 +12,13 @@ const Nav = () => (
       </a>
       <Link
         className={
-          (window.location.href.indexOf("blog") > 0 ||
-            window.location.href.indexOf("category") > 0) &&
-          window.location.href.indexOf("contact")
+          window.location.href.indexOf("blog") > 0 ||
+          window.location.href.indexOf("category") > 0
             ? "nav__item--link active"
             : "nav__item--link"
         }
         to="/blog"
+        id="blog-btn"
       >
         Blog
       </Link>
