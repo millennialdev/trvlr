@@ -1,4 +1,4 @@
-## Functional Intense Training (FIT)
+## TRVLR
 
 Travel blog site that aggregates and hosts some of the top travel articles from across the web. This build features a home page, four different topic categories (Travel, Guide, Opinion, and Tech), and over 15+ articles!
 
